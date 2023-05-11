@@ -73,27 +73,27 @@ const ENABLE_GPT4 = true;
 
 export const ALL_MODELS = [
   {
-    name: "gpt-4-请勿改动",
+    name: "gpt-3.5-请勿改动",
     available: ENABLE_GPT4,
   },
   {
-    name: "gpt-4-请勿改动",
+    name: "gpt-3.5-请勿改动",
     available: ENABLE_GPT4,
   },
   {
-    name: "gpt-4-请勿改动",
+    name: "gpt-3.5-请勿改动",
     available: ENABLE_GPT4,
   },
   {
-    name: "gpt-4-请勿改动",
+    name: "gpt-3.5-请勿改动",
     available: ENABLE_GPT4,
   },
   {
-    name: "gpt-4-请勿改动",
+    name: "gpt-3.5-请勿改动",
     available: true,
   },
   {
-    name: "gpt-4-请勿改动",
+    name: "gpt-3.5-请勿改动",
     available: true,
   },
 ];
@@ -149,7 +149,7 @@ const DEFAULT_CONFIG: ChatConfig = {
   modelConfig: {
     model: "gpt-3.5-turbo",
     temperature: 1,
-    max_tokens: 3096,
+    max_tokens: 3600,
     presence_penalty: 0,
   },
 };
