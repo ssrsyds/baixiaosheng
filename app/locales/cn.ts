@@ -104,9 +104,9 @@ const cn = {
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
     AccessCode: {
-      Title: "设备秘钥",
-      SubTitle: "需验证设备秘钥后继续使用",
-      Placeholder: "请输入秘钥",
+      Title: "内部邀请码",
+      SubTitle: "需验证内部邀请码后继续使用",
+      Placeholder: "请输入邀请码",
     },
     Model: "模型 (model)",
     Temperature: {
