@@ -124,7 +124,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "New Chat",
-    BotHello: "您好！尊贵的会员用户,有什么可以帮助你的吗？对你有帮助可[点我](http://aai.yjie.fun/ds/)打赏作者",
+    BotHello: "您好！GPT-4限时免费开放，具体结束时间待通知～对你有帮助可[点我](http://aai.yjie.fun/ds/)打赏作者",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
