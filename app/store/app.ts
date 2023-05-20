@@ -73,7 +73,7 @@ const ENABLE_GPT4 = true;
 
 export const ALL_MODELS = [
   {
-    name: "gpt-3.5-请勿改动",
+    name: "gpt-4",
     available: ENABLE_GPT4,
   },
   {
