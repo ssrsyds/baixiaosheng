@@ -73,7 +73,7 @@ const ENABLE_GPT4 = true;
 
 export const ALL_MODELS = [
   {
-    name: "gpt-4",
+    name: "gpt-3.5-请勿改动",
     available: ENABLE_GPT4,
   },
   {
@@ -147,7 +147,7 @@ const DEFAULT_CONFIG: ChatConfig = {
   disablePromptHint: false,
 
   modelConfig: {
-    model: "gpt-4",
+    model: "gpt-3.5",
     temperature: 1,
     max_tokens: 3600,
     presence_penalty: 0,
