@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "您好,该程序为[AI百晓生](http://aai.yjie.fun/)会员用户专享，请打开下方设置验证内部邀请码后使用",
+    Unauthorized: "您好,该程序为[AI百晓生](http://aai.yjie.fun/)会员用户专享，邀请码在个人信息获取，获取后请打开下方设置验证内部邀请码后使用",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -124,7 +124,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "New Chat",
-    BotHello: "您好！GPT-4限时免费开放，具体结束时间待通知～对你有帮助可[点我](http://aai.yjie.fun/ds/)打赏作者",
+    BotHello: "您好！有什么可以帮助你的吗～维护开发不易，可[点我](http://aai.yjie.fun/ds/)扫码打赏作者",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
